@@ -1,0 +1,46 @@
+﻿@model NerdDinner.Models.Dinner
+@{
+    ViewBag.Title = @Resources.Details;
+    Layout = "~/Views/Shared/Mobile/_MobileLayout.cshtml";
+}
+<div data-role="header">
+    <h1>@ViewBag.Title</h1>
+</div>
+<div data-role="content">
+    <ul id="Details" data-role="listview" data-inset="true">
+        <li>@Resources.Title
+            @Model.Title</li>
+        <li>@Resources.When 
+            @Model.EventDate.ToShortDateString()
+            @@
+            @Model.EventDate.ToShortTimeString()</li>
+        <li><a target="_self" href="@String.Format("http://maps.google.com/maps?q={0},{1}", Url.Encode(Model.Address), Url.Encode(Model.Country))">
+            @Resources.Where 
+            @Model.Address,
+            @Model.Country</a></li>
+        <li>@Resources.Description 
+            @Model.Description</li>
+        <li><a target="_self" href="tel://@Model.ContactPhone">@Resources.Organizer 
+            @Model.HostedBy
+            (@Model.ContactPhone)</a></li>
+        <li><a href="#whoscoming">@Resources.WhosComingQuestion</a></li>
+    </ul>
+    <div id="whoscoming" title="@Model.Title" class="panel">
+        <h2>
+            @Resources.WhosComingQuestion</h2>
+        @if (Model.RSVPs.Count == 0)
+        {
+            <ul>
+                <li>@Resources.NoOneHasRegistered</li></ul>
+        }
+        @if (Model.RSVPs.Count > 0)
+        {
+            <ul id="attendees">
+                @foreach (var RSVP in Model.RSVPs)
+                {
+                    <li>@RSVP.AttendeeName.Replace("@", " at ")</li>
+                }
+            </ul>
+        }
+    </div>
+</div>

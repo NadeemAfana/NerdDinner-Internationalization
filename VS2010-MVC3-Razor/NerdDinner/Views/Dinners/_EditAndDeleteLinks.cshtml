@@ -1,0 +1,9 @@
+﻿@model NerdDinner.Models.Dinner
+
+@if (Model.IsHostedBy(Context.User.Identity.Name)) { 
+
+    @Html.ActionLink(Resources.EditDinner, "Edit", new { id=Model.DinnerID })
+    <text>|</text>
+    @Html.ActionLink(Resources.DeleteDinner, "Delete", new { id = Model.DinnerID })
+
+}

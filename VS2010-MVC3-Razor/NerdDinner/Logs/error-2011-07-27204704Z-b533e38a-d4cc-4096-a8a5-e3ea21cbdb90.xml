@@ -1,0 +1,174 @@
+﻿<error errorId="b533e38a-d4cc-4096-a8a5-e3ea21cbdb90" host="NADEEM-PC" type="System.Web.HttpCompileException" message="e:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml(9): error CS0117: 'Resources.Resources' does not contain a definition for 'Resources'" source="System.Web" detail="System.Web.HttpCompileException (0x80004005): e:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml(9): error CS0117: 'Resources.Resources' does not contain a definition for 'Resources'&#xD;&#xA;   at System.Web.Compilation.AssemblyBuilder.Compile()&#xD;&#xA;   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()&#xD;&#xA;   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)&#xD;&#xA;   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)&#xD;&#xA;   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)&#xD;&#xA;   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]&amp; searchedLocations)&#xD;&#xA;   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]&amp; searchedLocations)&#xD;&#xA;   at System.Web.Mvc.VirtualPathProviderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)&#xD;&#xA;   at System.Web.Mvc.ViewEngineCollection.&lt;&gt;c__DisplayClass8.&lt;FindPartialView&gt;b__7(IViewEngine e)&#xD;&#xA;   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)&#xD;&#xA;   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)&#xD;&#xA;   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)&#xD;&#xA;   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)&#xD;&#xA;   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)&#xD;&#xA;   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName)&#xD;&#xA;   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in e:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_Layout.cshtml:line 46&#xD;&#xA;   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()&#xD;&#xA;   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()&#xD;&#xA;   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)&#xD;&#xA;   at System.Web.WebPages.WebPageBase.&lt;&gt;c__DisplayClass7.&lt;RenderPageCore&gt;b__6(TextWriter writer)&#xD;&#xA;   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)&#xD;&#xA;   at System.Web.WebPages.WebPageBase.Write(HelperResult result)&#xD;&#xA;   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)&#xD;&#xA;   at System.Web.WebPages.WebPageBase.PopContext()&#xD;&#xA;   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)&#xD;&#xA;   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)&#xD;&#xA;   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)&#xD;&#xA;   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1c.&lt;InvokeActionResultWithFilters&gt;b__19()&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1c.&lt;&gt;c__DisplayClass1e.&lt;InvokeActionResultWithFilters&gt;b__1b()&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)&#xD;&#xA;   at System.Web.Mvc.Controller.ExecuteCore()&#xD;&#xA;   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)&#xD;&#xA;   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClass6.&lt;&gt;c__DisplayClassb.&lt;BeginProcessRequest&gt;b__5()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass1.&lt;MakeVoidDelegate&gt;b__0()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass8`1.&lt;BeginSynchronous&gt;b__7(IAsyncResult _)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClasse.&lt;EndProcessRequest&gt;b__d()&#xD;&#xA;   at System.Web.Mvc.SecurityUtil.&lt;GetCallInAppTrustThunk&gt;b__0(Action f)&#xD;&#xA;   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" time="2011-07-27T20:47:04.7283479Z" statusCode="500" webHostHtmlMessage="&lt;html&gt;&#xD;&#xA;    &lt;head&gt;&#xD;&#xA;        &lt;title&gt;Compilation Error&lt;/title&gt;&#xD;&#xA;        &lt;style&gt;&#xD;&#xA;         body {font-family:&quot;Verdana&quot;;font-weight:normal;font-size: .7em;color:black;} &#xD;&#xA;         p {font-family:&quot;Verdana&quot;;font-weight:normal;color:black;margin-top: -5px}&#xD;&#xA;         b {font-family:&quot;Verdana&quot;;font-weight:bold;color:black;margin-top: -5px}&#xD;&#xA;         H1 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:18pt;color:red }&#xD;&#xA;         H2 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:14pt;color:maroon }&#xD;&#xA;         pre {font-family:&quot;Lucida Console&quot;;font-size: .9em}&#xD;&#xA;         .marker {font-weight: bold; color: black;text-decoration: none;}&#xD;&#xA;         .version {color: gray;}&#xD;&#xA;         .error {margin-bottom: 10px;}&#xD;&#xA;         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }&#xD;&#xA;        &lt;/style&gt;&#xD;&#xA;    &lt;/head&gt;&#xD;&#xA;&#xD;&#xA;    &lt;body bgcolor=&quot;white&quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;span&gt;&lt;H1&gt;Server Error in '/' Application.&lt;hr width=100% size=1 color=silver&gt;&lt;/H1&gt;&#xD;&#xA;&#xD;&#xA;            &lt;h2&gt; &lt;i&gt;Compilation Error&lt;/i&gt; &lt;/h2&gt;&lt;/span&gt;&#xD;&#xA;&#xD;&#xA;            &lt;font face=&quot;Arial, Helvetica, Geneva, SunSans-Regular, sans-serif &quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Description: &lt;/b&gt;An error occurred during the compilation of a resource required to service this request. Please review the following specific error details and modify your source code appropriately.&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Compiler Error Message: &lt;/b&gt;CS0117: &amp;#39;Resources.Resources&amp;#39; does not contain a definition for &amp;#39;Resources&amp;#39;&lt;br&gt;&lt;br&gt;&#xD;&#xA;&lt;b&gt;Source Error:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&#xD;&#xA;            &lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&lt;td&gt;&#xD;&#xA;                              &lt;/td&gt;&lt;/tr&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;Line 7:  }&#xD;&#xA;Line 8:  else {&#xD;&#xA;&lt;font color=red&gt;Line 9:      @:[ @Html.ActionLink(@Resources.Resources.LogOn, &amp;quot;LogOn&amp;quot;, new { controller = &amp;quot;Account&amp;quot;, returnUrl = HttpContext.Current.Request.RawUrl }) ]&#xD;&#xA;&lt;/font&gt;Line 10: }&#xD;&#xA;&lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt;Source File:&lt;/b&gt; e:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&#xD;&#xA;            &amp;nbsp;&amp;nbsp; &lt;b&gt;Line:&lt;/b&gt;  9&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&lt;br&gt;&lt;div class=&quot;expandable&quot; onclick=&quot;OnToggleTOCLevel1('compilerOutputDiv')&quot;&gt;Show Detailed Compiler Output:&lt;/div&gt;&#xD;&#xA;&lt;div id=&quot;compilerOutputDiv&quot; style=&quot;display: none;&quot;&gt;&#xD;&#xA;            &lt;br&gt;&lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\10.0&amp;gt; &amp;quot;C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe&amp;quot; /t:library /utf8output /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\bbc794e1\00a4f6f0_773dcc01\EntityFramework.DLL&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\3ab5a6f7\3d10bf4a_9e4ccc01\Resources.DLL&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\a8e29786\0077c5ef_773dcc01\OpenSearchToolkit.DLL&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\App_global.asax.03n-s-5u.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Helpers\v4.0_1.0.0.0__31bf3856ad364e35\System.Web.Helpers.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\0d11fd34\004a94ee_773dcc01\DDay.iCal.DLL&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\beed9d5a\a10d7ccb_de4bcc01\NerdDinner.DLL&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\5aad5c16\0077c5ef_773dcc01\PagedList.DLL&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.WebPages.Deployment\v4.0_1.0.0.0__31bf3856ad364e35\System.Web.WebPages.Deployment.dll&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\94739404\0077c5ef_773dcc01\DotNetOpenAuth.DLL&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\3229949f\001d63ed_773dcc01\antlr.runtime.DLL&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Mvc\v4.0_3.0.0.0__31bf3856ad364e35\System.Web.Mvc.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Routing\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Routing.dll&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\6d942be1\00a4f6f0_773dcc01\Elmah.DLL&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.WebPages\v4.0_1.0.0.0__31bf3856ad364e35\System.Web.WebPages.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll&amp;quot; /R:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\assembly\dl3\713a7a91\0077c5ef_773dcc01\FiftyOne.Foundation.DLL&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Abstractions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Abstractions.dll&amp;quot; /R:&amp;quot;C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll&amp;quot; /out:&amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\App_Web__loginstatus.cshtml.639c3968.qiysyu85.dll&amp;quot; /D:DEBUG /debug+ /optimize- /w:4 /nowarn:1659;1699;1701 /warnaserror-  &amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\App_Web__loginstatus.cshtml.639c3968.qiysyu85.0.cs&amp;quot; &amp;quot;C:\Users\Nadeem\AppData\Local\Temp\Temporary ASP.NET Files\root\c5556c21\8dae18e1\App_Web__loginstatus.cshtml.639c3968.qiysyu85.1.cs&amp;quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Microsoft (R) Visual C# 2010 Compiler version 4.0.30319.1&#xD;&#xA;Copyright (C) Microsoft Corporation. All rights reserved.&#xD;&#xA;&#xD;&#xA;e:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml(9,37): error CS0117: &amp;#39;Resources.Resources&amp;#39; does not contain a definition for &amp;#39;Resources&amp;#39;&#xD;&#xA;&lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;br&gt;&lt;div class=&quot;expandable&quot; onclick=&quot;OnToggleTOCLevel1('dynamicCodeDiv')&quot;&gt;Show Complete Compilation Source:&lt;/div&gt;&#xD;&#xA;&lt;div id=&quot;dynamicCodeDiv&quot; style=&quot;display: none;&quot;&gt;&#xD;&#xA;            &lt;br&gt;&lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;Line 1:    #pragma checksum &amp;quot;E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&amp;quot; &amp;quot;{406ea660-64cf-4c82-b6f0-42d48172a799}&amp;quot; &amp;quot;A0A18DBCF836F2134FBD9CD96FC5604F&amp;quot;&#xD;Line 2:    //------------------------------------------------------------------------------&#xD;Line 3:    // &amp;lt;auto-generated&amp;gt;&#xD;Line 4:    //     This code was generated by a tool.&#xD;Line 5:    //     Runtime Version:4.0.30319.235&#xD;Line 6:    //&#xD;Line 7:    //     Changes to this file may cause incorrect behavior and will be lost if&#xD;Line 8:    //     the code is regenerated.&#xD;Line 9:    // &amp;lt;/auto-generated&amp;gt;&#xD;Line 10:   //------------------------------------------------------------------------------&#xD;Line 11:   &#xD;Line 12:   namespace ASP {&#xD;Line 13:       using System;&#xD;Line 14:       using System.Collections.Generic;&#xD;Line 15:       using System.IO;&#xD;Line 16:       using System.Linq;&#xD;Line 17:       using System.Net;&#xD;Line 18:       using System.Web;&#xD;Line 19:       using System.Web.Helpers;&#xD;Line 20:       using System.Web.Security;&#xD;Line 21:       using System.Web.UI;&#xD;Line 22:       using System.Web.WebPages;&#xD;Line 23:       using System.Web.Mvc;&#xD;Line 24:       using System.Web.Mvc.Ajax;&#xD;Line 25:       using System.Web.Mvc.Html;&#xD;Line 26:       using System.Web.Routing;&#xD;Line 27:       using Resources;&#xD;Line 28:       &#xD;Line 29:       #line 1 &amp;quot;E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&amp;quot;&#xD;Line 30:       using NerdDinner;&#xD;Line 31:       &#xD;Line 32:       #line default&#xD;Line 33:       #line hidden&#xD;Line 34:       &#xD;Line 35:       &#xD;Line 36:       public class _Page_Views_Shared__LoginStatus_cshtml : System.Web.Mvc.WebViewPage&amp;lt;dynamic&amp;gt; {&#xD;Line 37:           &#xD;Line 38:   #line hidden&#xD;Line 39:   &#xD;Line 40:           &#xD;Line 41:           public _Page_Views_Shared__LoginStatus_cshtml() {&#xD;Line 42:           }&#xD;Line 43:           &#xD;Line 44:           protected ASP.global_asax ApplicationInstance {&#xD;Line 45:               get {&#xD;Line 46:                   return ((ASP.global_asax)(Context.ApplicationInstance));&#xD;Line 47:               }&#xD;Line 48:           }&#xD;Line 49:           &#xD;Line 50:           public override void Execute() {&#xD;Line 51:   &#xD;Line 52:   WriteLiteral(&amp;quot;\r\n\r\n&amp;quot;);&#xD;Line 53:   &#xD;Line 54:   &#xD;Line 55:               &#xD;Line 56:               #line 4 &amp;quot;E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&amp;quot;&#xD;Line 57:    if(Request.IsAuthenticated) {&#xD;Line 58:   &#xD;Line 59:               &#xD;Line 60:               #line default&#xD;Line 61:               #line hidden&#xD;Line 62:   WriteLiteral(&amp;quot;    &amp;quot;);&#xD;Line 63:   &#xD;Line 64:   WriteLiteral(&amp;quot;Welcome &amp;lt;b&amp;gt;&amp;quot;);&#xD;Line 65:   &#xD;Line 66:   &#xD;Line 67:               &#xD;Line 68:               #line 5 &amp;quot;E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&amp;quot;&#xD;Line 69:                    Write(((NerdIdentity)HttpContext.Current.User.Identity).FriendlyName);&#xD;Line 70:   &#xD;Line 71:               &#xD;Line 72:               #line default&#xD;Line 73:               #line hidden&#xD;Line 74:   WriteLiteral(&amp;quot;&amp;lt;/b&amp;gt;!\r\n    [ &amp;quot;);&#xD;Line 75:   &#xD;Line 76:   &#xD;Line 77:               &#xD;Line 78:               #line 6 &amp;quot;E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&amp;quot;&#xD;Line 79:    Write(Html.ActionLink(&amp;quot;Log Off&amp;quot;, &amp;quot;LogOff&amp;quot;, &amp;quot;Account&amp;quot;));&#xD;Line 80:   &#xD;Line 81:               &#xD;Line 82:               #line default&#xD;Line 83:               #line hidden&#xD;Line 84:   WriteLiteral(&amp;quot; ]&amp;quot;);&#xD;Line 85:   &#xD;Line 86:   WriteLiteral(&amp;quot;\r\n&amp;quot;);&#xD;Line 87:   &#xD;Line 88:   &#xD;Line 89:               &#xD;Line 90:               #line 7 &amp;quot;E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&amp;quot;&#xD;Line 91:   }&#xD;Line 92:   else {&#xD;Line 93:   &#xD;Line 94:               &#xD;Line 95:               #line default&#xD;Line 96:               #line hidden&#xD;Line 97:   WriteLiteral(&amp;quot;    &amp;quot;);&#xD;Line 98:   &#xD;Line 99:   WriteLiteral(&amp;quot;[ &amp;quot;);&#xD;Line 100:  &#xD;Line 101:  &#xD;Line 102:              &#xD;Line 103:              #line 9 &amp;quot;E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&amp;quot;&#xD;Line 104:     Write(Html.ActionLink(@Resources.Resources.LogOn, &amp;quot;LogOn&amp;quot;, new { controller = &amp;quot;Account&amp;quot;, returnUrl = HttpContext.Current.Request.RawUrl }));&#xD;Line 105:  &#xD;Line 106:              &#xD;Line 107:              #line default&#xD;Line 108:              #line hidden&#xD;Line 109:  WriteLiteral(&amp;quot; ]\r\n&amp;quot;);&#xD;Line 110:  &#xD;Line 111:  &#xD;Line 112:              &#xD;Line 113:              #line 10 &amp;quot;E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Views\Shared\_LoginStatus.cshtml&amp;quot;&#xD;Line 114:  }&#xD;Line 115:  &#xD;Line 116:              &#xD;Line 117:              #line default&#xD;Line 118:              #line hidden&#xD;Line 119:  &#xD;Line 120:          }&#xD;Line 121:      }&#xD;Line 122:  }&#xD;Line 123:  &lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &lt;script type=&quot;text/javascript&quot;&gt;&#xD;&#xA;    function OnToggleTOCLevel1(level2ID)&#xD;&#xA;    {&#xD;&#xA;      var elemLevel2 = document.getElementById(level2ID);&#xD;&#xA;      if (elemLevel2.style.display == 'none')&#xD;&#xA;      {&#xD;&#xA;        elemLevel2.style.display = '';&#xD;&#xA;      }&#xD;&#xA;      else {&#xD;&#xA;        elemLevel2.style.display = 'none';&#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;    &lt;/script&gt;&#xD;&#xA;                          &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;    &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;&#xD;&#xA;">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:max-age=0&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_CHARSET:ISO-8859-1,utf-8;q=0.7,*;q=0.7&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-us,en;q=0.5&#xD;&#xA;HTTP_COOKIE:__utma=111872281.354885761.1309400601.1311717375.1311798325.5; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.4.10.1311798325; __utmc=111872281&#xD;&#xA;HTTP_HOST:localhost:50799&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: max-age=0&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: en-us,en;q=0.5&#xD;&#xA;Cookie: __utma=111872281.354885761.1309400601.1311717375.1311798325.5; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.4.10.1311798325; __utmc=111872281&#xD;&#xA;Host: localhost:50799&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="Nadeem-PC\Nadeem" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="" />
+    </item>
+    <item name="HTTPS">
+      <value string="" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Home/About" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Home\About" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Home/About" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="50799" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="" />
+    </item>
+    <item name="URL">
+      <value string="/Home/About" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="max-age=0" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_CHARSET">
+      <value string="ISO-8859-1,utf-8;q=0.7,*;q=0.7" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-us,en;q=0.5" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__utma=111872281.354885761.1309400601.1311717375.1311798325.5; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.4.10.1311798325; __utmc=111872281" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:50799" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="__utma">
+      <value string="111872281.354885761.1309400601.1311717375.1311798325.5" />
+    </item>
+    <item name="__utmz">
+      <value string="111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)" />
+    </item>
+    <item name="__utmb">
+      <value string="111872281.4.10.1311798325" />
+    </item>
+    <item name="__utmc">
+      <value string="111872281" />
+    </item>
+  </cookies>
+</error>

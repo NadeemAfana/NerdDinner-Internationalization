@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "NerdDinner";
+    Layout = "~/Views/Shared/Mobile/_MobileLayout.cshtml";
+}
+<div data-role="header">
+    <h1>@ViewBag.Title</h1>
+</div>
+<div data-role="content">
+    <p>
+        <img alt="nerddinner" src="@Url.Content("~/Content/Img/Mobile/logo_medium.jpg")" runat="server" /></p>
+    <p>
+        </p>
+    @using (Html.BeginForm("SearchByPlaceNameOrZip", "Search", FormMethod.Post))
+    {
+        <div id="searchBox">
+            <input type="text" name="placeOrZip" id="placeOrZip" maxlength="56" onfocus="this.value = ''"
+                value="" /><br />
+            <input id="search" type="submit" value="@Resources.Search" />
+        </div>
+    }
+</div>

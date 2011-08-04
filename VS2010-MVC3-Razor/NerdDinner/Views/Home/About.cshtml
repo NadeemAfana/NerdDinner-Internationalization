@@ -1,0 +1,11 @@
+﻿@{
+	ViewBag.Title = Resources.About;
+}
+
+<h2>@Resources.WhatIsNerdDinner</h2>
+<div id="about">
+	<p><img src="@Url.Content("~/Content/nerd.jpg")" height="200" style="float:left; padding-right:20px" alt="@Resources.PictureOfHugeNerd"/>@Resources.AreYouHugeNerd</p>
+	<p>@Html.Raw(Resources.EnterForEventNeeds)</p>
+	<p>@Html.Raw(string.Format(Resources.WeFreeAndFun, Url.Content("~/"), Url.Content("~/dinners/create")))</p>
+	<p>@Resources.WeHaveBlogBadges</p>
+</div>

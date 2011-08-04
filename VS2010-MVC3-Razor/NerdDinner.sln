@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdDinner", "NerdDinner\NerdDinner.csproj", "{67C8B33C-A6AE-421F-BF79-3FB8F37A64C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdDinner.Tests", "NerdDinner.Tests\NerdDinner.Tests.csproj", "{DCF277C2-270F-4806-B2F6-8F757713D21A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3CA68E7-7F36-4C56-8012-254BAEAE36F4}"
+	ProjectSection(SolutionItems) = preProject
+		NerdDinner.testsettings = NerdDinner.testsettings
+		NerdDinner.vsmdi = NerdDinner.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{D5724556-A0D8-44FA-B48A-4AE0AB037498}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NerdDinner.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C8B33C-A6AE-421F-BF79-3FB8F37A64C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C8B33C-A6AE-421F-BF79-3FB8F37A64C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C8B33C-A6AE-421F-BF79-3FB8F37A64C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C8B33C-A6AE-421F-BF79-3FB8F37A64C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF277C2-270F-4806-B2F6-8F757713D21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF277C2-270F-4806-B2F6-8F757713D21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF277C2-270F-4806-B2F6-8F757713D21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF277C2-270F-4806-B2F6-8F757713D21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5724556-A0D8-44FA-B48A-4AE0AB037498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5724556-A0D8-44FA-B48A-4AE0AB037498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5724556-A0D8-44FA-B48A-4AE0AB037498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5724556-A0D8-44FA-B48A-4AE0AB037498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿@using NerdDinner;
+
+
+@if(Request.IsAuthenticated) {
+    <text>@Resources.Welcome <b>@(((NerdIdentity)HttpContext.Current.User.Identity).FriendlyName)</b>!
+    [ @Html.ActionLink(Resources.LogOff, "LogOff", "Account") ]</text>
+}
+else {
+    @:[ @Html.ActionLink(Resources.LogOn, "LogOn", new { controller = "Account", returnUrl = HttpContext.Current.Request.RawUrl }) ]
+}
+

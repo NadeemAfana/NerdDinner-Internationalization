@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="AccountCreationError" xml:space="preserve">
+    <value>La creación de cuenta no fue exitoso. Por favor corrige los errores y intenta de nuevo.</value>
+  </data>
+  <data name="AccountInformation" xml:space="preserve">
+    <value>Información de Cuenta</value>
+  </data>
+  <data name="AddEventToCalendar" xml:space="preserve">
+    <value>Agregar evento a tu calendario:</value>
+  </data>
+  <data name="AddToFacebook" xml:space="preserve">
+    <value>Agregar a Facebook</value>
+  </data>
+  <data name="AddToGoogleBuzz" xml:space="preserve">
+    <value>Agregar a Google Buzz</value>
+  </data>
+  <data name="AreYouHugeNerd" xml:space="preserve">
+    <value>¿Eres un super nerd? ¿Tal vez un geek? ¿No? Tal vez un tonto, bobo o estudioso.  Es muy posible que seas sólo una persona normal. De cualquier manera, eres un ser social. Es necesario que salgas a comer un bocado de vez en cuando, de preferencia con gente que sea como tú.</value>
+  </data>
+  <data name="at" xml:space="preserve">
+    <value>a las</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="CancelYourRSVP" xml:space="preserve">
+    <value>Anula tu confirmación de asistencia</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Cambiar Contraseña</value>
+  </data>
+  <data name="ClickForUpcomingDinner" xml:space="preserve">
+    <value>Click para Cenas Próximas</value>
+  </data>
+  <data name="ClickSameButton" xml:space="preserve">
+    <value>¡¡ Si has iniciado sesión previamente, haz click en el mismo botón  de la última vez!!</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirmar la nueva contraseña:</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Contraseña Actual:</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Confirmar Eliminación</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Eliminado</value>
+  </data>
+  <data name="DeleteDinner" xml:space="preserve">
+    <value>Eliminar Cena</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descripción:</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalles</value>
+  </data>
+  <data name="DinnerDeleted" xml:space="preserve">
+    <value>Cena Eliminada</value>
+  </data>
+  <data name="DinnerDoesntExist" xml:space="preserve">
+    <value>Lo sentimos – la cena solicitada no existe o fue eliminada.</value>
+  </data>
+  <data name="DinnersNearYou" xml:space="preserve">
+    <value>Cenas cercanas a ti</value>
+  </data>
+  <data name="DinnerWithOn" xml:space="preserve">
+    <value>{0} con {1} el {2}</value>
+    <comment>0: Title
+1: Hosted By
+2: Date</comment>
+  </data>
+  <data name="DinnerWithOnAtWhere" xml:space="preserve">
+    <value>{0} con {1} el {2} a las {3}. Donde: {4}, {5}</value>
+    <comment>RSSResult.cs</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar: </value>
+  </data>
+  <data name="EditDinner" xml:space="preserve">
+    <value>Editar Cena</value>
+  </data>
+  <data name="EnterForEventNeeds" xml:space="preserve">
+    <value>Ingresa a &lt;a href="http://www.nerddinner.com"&gt;NerdDinner.com&lt;/a&gt;, para todas tus necesidades de planificación de eventos. Tenemos sólo un objetivo. Organizar a los nerds del mundo y ayudarles a comer en grupos.</value>
+  </data>
+  <data name="EnterUsernamePassword" xml:space="preserve">
+    <value>Por favor ingresa tu nombre de usuario y contraseña.</value>
+  </data>
+  <data name="EnterYourLocation" xml:space="preserve">
+    <value>Ingresa tu ubicación o</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorAccessingDinner" xml:space="preserve">
+    <value>Error, no se puede acceder la cena</value>
+  </data>
+  <data name="ErrorOcurred" xml:space="preserve">
+    <value>Los sentimos, ha ocurrido un error mientras procesar tu solicitud. Hemos sido notificados y lo revisaremos. Si sabes lo que estabas haciendo, o si eres un demonio, infórmanos en nuestro &lt;a href="http://feedback.nerddiner.com"&gt;sitio de sugerencias.&lt;/a&gt;</value>
+  </data>
+  <data name="FeedbackSite" xml:space="preserve">
+    <value>sitio de sugerencias</value>
+  </data>
+  <data name="FindADinner" xml:space="preserve">
+    <value>Buscar una Cena</value>
+  </data>
+  <data name="FindDinner" xml:space="preserve">
+    <value>Buscar Cena</value>
+  </data>
+  <data name="FindNerdDinnerNearYou" xml:space="preserve">
+    <value>¡Buscar una cena nerd cercana a ti!</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Ir</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>Página Principal</value>
+  </data>
+  <data name="HostADinner" xml:space="preserve">
+    <value>Ser el anfitrión de una Cena</value>
+  </data>
+  <data name="HostDinner" xml:space="preserve">
+    <value>Ser Anfitrión</value>
+  </data>
+  <data name="HostNerdDinner" xml:space="preserve">
+    <value>Ser el anfitrión de una Cena Nerd</value>
+  </data>
+  <data name="IfYouDontHaveAccount" xml:space="preserve">
+    <value>si no tienes una cuenta.</value>
+  </data>
+  <data name="LayoutFooter" xml:space="preserve">
+    <value>Código por &lt;a href="http://www.hanselman.com"&gt;Hanselman&lt;/a&gt;, &lt;a href="http://weblogs.asp.net/scottgu"&gt;
+               Guthrie&lt;/a&gt;, &lt;a href="http://weblogs.asp.net/jgalloway"&gt;Galloway&lt;/a&gt;, &lt;a href="http://blog.wekeroad.com"&gt;
+                   Conery&lt;/a&gt; y &lt;a href="http://blog.nerdbank.net/"&gt;Arnott&lt;/a&gt;. JavaScript
+           por &lt;a href="http://encosia.com"&gt;Dave Ward&lt;/a&gt;. ASP.NET MVC por &lt;a href="http://www.haacked.com"&gt;
+               Haack&lt;/a&gt; y amigos. Estilo por &lt;a href="http://michaeldorian.com/"&gt;Michael Dorian Bach&lt;/a&gt;.&lt;br /&gt;
+           Código fuente en &lt;a href="http://nerddinner.codeplex.com"&gt;http://nerddinner.codeplex.com&lt;/a&gt;.
+           Capítulo gratis del libro y guía detallada de código en &lt;a href="http://tinyurl.com/aspnetmvc"&gt;
+               http://tinyurl.com/aspnetmvc&lt;/a&gt;.</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Error al iniciar sesión. Por favor corrige los errores e intenta de nuevo.</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Cerrar Sesión</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Iniciar Sesión</value>
+  </data>
+  <data name="LooksLikeNoDinners" xml:space="preserve">
+    <value>Parece que no hay cenas cerca de {0} en el futuro cercano.</value>
+    <comment>0: Model.LocationName</comment>
+  </data>
+  <data name="LostQuestion" xml:space="preserve">
+    <value>¿Perdido?</value>
+  </data>
+  <data name="MinNewPasswordLength" xml:space="preserve">
+    <value>Las nuevas contraseñas deben tener como mínimo {0} caracteres.</value>
+    <comment>0: Password Length </comment>
+  </data>
+  <data name="MinPasswordLength" xml:space="preserve">
+    <value>Las contraseñas deben tener como mínimo {0} caracteres.</value>
+    <comment>0 : Password Length</comment>
+  </data>
+  <data name="MoreDinnersAndFunAt" xml:space="preserve">
+    <value>Más cenas y diversión</value>
+  </data>
+  <data name="MyDinners" xml:space="preserve">
+    <value>Mis Cenas</value>
+  </data>
+  <data name="NerdDinnerNotFound" xml:space="preserve">
+    <value>Cena No Encontrada</value>
+  </data>
+  <data name="NerdDinners" xml:space="preserve">
+    <value>Cenas</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nueva contraseña:</value>
+  </data>
+  <data name="NoNerdDinnersFound" xml:space="preserve">
+    <value>¡Ninguna cena fue encontrada!</value>
+  </data>
+  <data name="NoOneHasRegistered" xml:space="preserve">
+    <value>Nadie ha registrado.</value>
+  </data>
+  <data name="OhSnap" xml:space="preserve">
+    <value>¡Oh!</value>
+    <comment>can you make it better?</comment>
+  </data>
+  <data name="on" xml:space="preserve">
+    <value>el</value>
+  </data>
+  <data name="OnlyHostCanEditDelete" xml:space="preserve">
+    <value>Lo sentimos - Sólo el anfitrión de esta cena la puede editar o eliminar.</value>
+  </data>
+  <data name="Organizer" xml:space="preserve">
+    <value>Organizador:</value>
+  </data>
+  <data name="PageNext" xml:space="preserve">
+    <value>Siguiente &gt;</value>
+  </data>
+  <data name="PageOf" xml:space="preserve">
+    <value>Página {0} de {1}</value>
+    <comment>0: index
+1: total</comment>
+  </data>
+  <data name="PagePrev" xml:space="preserve">
+    <value>&lt; Previo</value>
+  </data>
+  <data name="PasswordChangeError" xml:space="preserve">
+    <value>El cambio de contraseña no fue exitoso. Por favor corrige los errores e intenta de nuevo.</value>
+  </data>
+  <data name="PasswordSuccess" xml:space="preserve">
+    <value>Tu contraseña has sido cambiada exitosamente.</value>
+  </data>
+  <data name="PictureOfHugeNerd" xml:space="preserve">
+    <value>Imagen de una super nerd.</value>
+  </data>
+  <data name="PleaseConfirmCancelDinner" xml:space="preserve">
+    <value>Por favor confirma que desea eliminar la cena con el título:</value>
+  </data>
+  <data name="PleaseCorrectErrors" xml:space="preserve">
+    <value>Por favor corrige los errores e intenta de nuevo.</value>
+  </data>
+  <data name="PopularDinners" xml:space="preserve">
+    <value>Cenas Populares</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Nunca vamos a vender o regalar nada de tu información, honestamente.</value>
+  </data>
+  <data name="PrivacyPolicyTitle" xml:space="preserve">
+    <value>Póliza de privacidad</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="RegisterForAccount" xml:space="preserve">
+    <value>Registro para una cuenta</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Resultados</value>
+  </data>
+  <data name="RsvpForThisEvent" xml:space="preserve">
+    <value>Sírvete confirmar para este evento</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Compartir:</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="TweetThis" xml:space="preserve">
+    <value>Compartir en Twitter</value>
+  </data>
+  <data name="UpcomingDinners" xml:space="preserve">
+    <value>Cenas Próximas</value>
+  </data>
+  <data name="UpcomingNerdDinners" xml:space="preserve">
+    <value>Próximas cenas de los Nerds</value>
+  </data>
+  <data name="UseFormBelow" xml:space="preserve">
+    <value>Usa el formulario más abajo para crear una cuenta nueva.</value>
+  </data>
+  <data name="UseFormChangePassword" xml:space="preserve">
+    <value>Usa el formulario más abajo para cambiar tu contraseña.</value>
+  </data>
+  <data name="UsingNerdDinnerAccount" xml:space="preserve">
+    <value>usando cuenta NerdDinner</value>
+  </data>
+  <data name="Via3rdParty" xml:space="preserve">
+    <value>via terceros (recomendado)</value>
+  </data>
+  <data name="ViewUpcomingDinners" xml:space="preserve">
+    <value>Vea Todas Las Cenas Próximas</value>
+  </data>
+  <data name="WeFreeAndFun" xml:space="preserve">
+    <value>Somos libres y divertidos. &lt;a href="{0}"&gt;Busca una cena cercana a ti&lt;/a&gt;, o &lt;a href="{1}"&gt;Se el anfitrión de una cena&lt;/a&gt;. Se social.</value>
+    <comment>0: @Url.Content("~/")
+1: @Url.Content("~/dinners/create")</comment>
+  </data>
+  <data name="WeHaveBlogBadges" xml:space="preserve">
+    <value>También tenemos badges de blog y widgets que puedes instalar en tu blog o sitio web para que tus seguidores puedan  participar en el movimiento Nerd Dinner. Bueno, en realidad no es un movimiento. Más que nada geeks en un patio de comidas, pero aun así.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="WhatIsNerdDinner" xml:space="preserve">
+    <value>¿Qué es NerdDinner.com?</value>
+  </data>
+  <data name="When" xml:space="preserve">
+    <value>Cuándo:</value>
+  </data>
+  <data name="Where" xml:space="preserve">
+    <value>Dónde:</value>
+  </data>
+  <data name="WhosComing" xml:space="preserve">
+    <value>Quién viene:</value>
+  </data>
+  <data name="WhosComingQuestion" xml:space="preserve">
+    <value>¿Quién viene?</value>
+  </data>
+  <data name="WhyNotHostOne" xml:space="preserve">
+    <value>¿Por qué no ser el &lt;a target="_blank" href="http://www.nerddinner.com/Dinners/Create"&gt;anfitrión de una cena&lt;/a&gt;?</value>
+  </data>
+  <data name="YouAreHostForThisEvent" xml:space="preserve">
+    <value>¡Tú eres el anfitrión para este evento!</value>
+  </data>
+  <data name="YouAreRegisteredForThisEvent" xml:space="preserve">
+    <value>¡Tú estás registrado para este evento!</value>
+  </data>
+  <data name="YouDoNotOwnDinners" xml:space="preserve">
+    <value>Tú no eres el dueño o estás registrado para cualquier cena.</value>
+  </data>
+  <data name="YouDoNotOwnThisDinner" xml:space="preserve">
+    <value>Tú no eres el dueño de esta cena</value>
+  </data>
+  <data name="YourDinnerDeleted" xml:space="preserve">
+    <value>Tu cena fue eliminada exitosamente.</value>
+  </data>
+  <data name="CurrentPasswordInvalid" xml:space="preserve">
+    <value>La contraseña actual es incorrecta o la nueva contraseña es inválida.</value>
+  </data>
+  <data name="EnterDifferentEmail" xml:space="preserve">
+    <value>Ya existe un nombre de usuario para esta dirección de correo electrónico. Por favor ingresa una dirección diferente.</value>
+  </data>
+  <data name="InvalidAnswer" xml:space="preserve">
+    <value>La respuesta de seguridad es inválida. Por favor corrija la respuesta e intenta de nuevo.</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>La dirección de correo electrónico es inválida. Por favor corríjala e intenta de nuevo.</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>La contraseña ingresada es inválida. Por favor ingresa una contraseña válida.</value>
+  </data>
+  <data name="InvalidQuestion" xml:space="preserve">
+    <value>La pregunta de seguridad ingresada es ínvalida. Por favor corrígela e intenta de nuevo.</value>
+  </data>
+  <data name="InvalidUsername" xml:space="preserve">
+    <value>El nombre de usuario ingresado es ínvaido. Por favor corrígelo e intenta de nuevo.</value>
+  </data>
+  <data name="ItLooksYouCanceledOpenId" xml:space="preserve">
+    <value>Parece que cancelaste tu acceso al proveedor OpenID.</value>
+  </data>
+  <data name="LongDescription" xml:space="preserve">
+    <value>Nerd Dinner - Organizando a los nerds del mundo y ayudándoles a comer en grupos</value>
+  </data>
+  <data name="ModelAdderssTooLong" xml:space="preserve">
+    <value>La dirección no puede tener más de 50 caracteres</value>
+  </data>
+  <data name="ModelAddress" xml:space="preserve">
+    <value>Dirección, Ciudad, Estado, Código Postal</value>
+  </data>
+  <data name="ModelAddressRequired" xml:space="preserve">
+    <value>La dirección es obligatoria</value>
+  </data>
+  <data name="ModelConfirmPassword" xml:space="preserve">
+    <value>Confirmar contraseña:</value>
+  </data>
+  <data name="ModelContactInfo" xml:space="preserve">
+    <value>Información de Contacto</value>
+  </data>
+  <data name="ModelContactPhoneRequired" xml:space="preserve">
+    <value>Fono de contacto es obligatorio</value>
+  </data>
+  <data name="ModelContactPhoneTooLong" xml:space="preserve">
+    <value>El fono de contacto no puede tener más de 20 caracteres</value>
+  </data>
+  <data name="ModelCountry" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="ModelDescription" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="ModelDescriptionRequired" xml:space="preserve">
+    <value>La descrpción es obligatoria</value>
+  </data>
+  <data name="ModelDescriptionTooLong" xml:space="preserve">
+    <value>La descripción no puede tener más de 256 caracteres</value>
+  </data>
+  <data name="ModelEmail" xml:space="preserve">
+    <value>Correo electrónico:</value>
+  </data>
+  <data name="ModelEventDate" xml:space="preserve">
+    <value>Fecha del Evento</value>
+  </data>
+  <data name="ModelEventDateRequired" xml:space="preserve">
+    <value>La fecha del evento es obligatoria</value>
+  </data>
+  <data name="ModelHostedByTooLong" xml:space="preserve">
+    <value>El nombre del anfitrión no puede tener más de 20 caracteres</value>
+  </data>
+  <data name="ModelHostName" xml:space="preserve">
+    <value>Nombre del Anfitrión</value>
+  </data>
+  <data name="ModelPassword" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="ModelRememberMe" xml:space="preserve">
+    <value>Recuerda mis datos</value>
+  </data>
+  <data name="ModelTitle" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="ModelTitleRequired" xml:space="preserve">
+    <value>Título es obligatorio</value>
+  </data>
+  <data name="ModelTitleTooLong" xml:space="preserve">
+    <value>Título no puede tener más de 50 caracteres</value>
+  </data>
+  <data name="ModelUsername" xml:space="preserve">
+    <value>Nombre de usuario:</value>
+  </data>
+  <data name="NewPasswordAndConfirmationMismatch" xml:space="preserve">
+    <value>La nueva contraseña y la confirmación de contraseña no coinciden.</value>
+  </data>
+  <data name="NoDinnerFoundForId" xml:space="preserve">
+    <value>Ninguna cena fue encontrada para este id</value>
+  </data>
+  <data name="NoDinnerFoundInvalidId" xml:space="preserve">
+    <value>Ninguna cena fue encontrada porque el id es inválido</value>
+  </data>
+  <data name="NoTwitterKeyFound" xml:space="preserve">
+    <value>La clave de consumidor OAuth y la contraseña no fueron encontrados en AppSettings de web.config.</value>
+  </data>
+  <data name="OR" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="PasswordTooShort" xml:space="preserve">
+    <value>Tienes que escribir una contraseña de {2} o más caracteres.</value>
+  </data>
+  <data name="ProviderError" xml:space="preserve">
+    <value>El proveedor de pertenencia retornó un error. Por favor verifica los datos de entrada e intenta de nuevo. Si el problema persiste, contáctate con el administrador del sistema.</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator.</value>
+  </data>
+  <data name="UsernameAlreadyExists" xml:space="preserve">
+    <value>El nombre de usuario ya existe. Por favor ingresa un nombre de usuario diferente.</value>
+  </data>
+  <data name="UsernamePasswordIncorrect" xml:space="preserve">
+    <value>El nombre de usuario o contraseña ingresada es incorrecta.</value>
+  </data>
+  <data name="UserRejected" xml:space="preserve">
+    <value>La solicitud de creación de usuario ha sido cancelada. Por favor, verifica tus datos e intenta de nuevo. Si el problema persiste, ponte en contacto con el administrador del sistema.</value>
+  </data>
+  <data name="WindowsAuthenticationNotSupported" xml:space="preserve">
+    <value>Autenticación de Windows no es soportada.</value>
+  </data>
+  <data name="with" xml:space="preserve">
+    <value>con</value>
+  </data>
+  <data name="YouMustSpecifyCurrentPassword" xml:space="preserve">
+    <value>Tienes que escribir tu contraseña actual.</value>
+  </data>
+  <data name="YouMustSpecifyEmailAddress" xml:space="preserve">
+    <value>Escribe tu dirección de correo electrónico.</value>
+  </data>
+  <data name="YouMustSpecifyLongerPassword" xml:space="preserve">
+    <value>Escribe una contraseña de {0} o más caracteres.</value>
+  </data>
+  <data name="YouMustSpecifyPassword" xml:space="preserve">
+    <value>Escribe una contraseña.</value>
+  </data>
+  <data name="YouMustSpecifyUsername" xml:space="preserve">
+    <value>Escribe un nombre de usuario.</value>
+  </data>
+  <data name="BingMapsReturnedAddress" xml:space="preserve">
+    <value>Bing Maps devolvió la dirección '{0}' para la ubicación del pin. Click 'Aceptar' para utilizar esta dirección para el evento, o 'Cancelar' para utilizar la dirección actual de '{1}'</value>
+    <comment>{0}:LocationName
+{1}:CurrentAddress
+NerdDinner.js</comment>
+  </data>
+  <data name="MMMdd" xml:space="preserve">
+    <value>dd MMM</value>
+    <comment>30 jul - Server side and client</comment>
+  </data>
+  <data name="MMMddcyyyy" xml:space="preserve">
+    <value>dd MMM yyyy</value>
+    <comment>30 jul 2011, server side</comment>
+  </data>
+  <data name="MonthDayYear" xml:space="preserve">
+    <value>dd' de 'MMMM' de 'yyyy</value>
+    <comment>30 de julio de 2011, client side Global plugin</comment>
+  </data>
+  <data name="RSVP" xml:space="preserve">
+    <value>persona</value>
+  </data>
+  <data name="RSVPs" xml:space="preserve">
+    <value>personas</value>
+  </data>
+  <data name="ampm" xml:space="preserve">
+    <value>true</value>
+    <comment>Timepicker.js</comment>
+  </data>
+  <data name="atAddress" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="closeText" xml:space="preserve">
+    <value>Hecho</value>
+    <comment>Timepicker.js</comment>
+  </data>
+  <data name="currentText" xml:space="preserve">
+    <value>Ahora</value>
+    <comment>Timepicker.js</comment>
+  </data>
+  <data name="hourText" xml:space="preserve">
+    <value>Hora</value>
+    <comment>Timepicker.js</comment>
+  </data>
+  <data name="minuteText" xml:space="preserve">
+    <value>Minuto</value>
+    <comment>Timepicker.js</comment>
+  </data>
+  <data name="secondText" xml:space="preserve">
+    <value>Segundo</value>
+    <comment>Timepicker.js</comment>
+  </data>
+  <data name="timeOnlyTitle" xml:space="preserve">
+    <value>Selecciona el Tiempo</value>
+    <comment>Timepicker.js</comment>
+  </data>
+  <data name="timeText" xml:space="preserve">
+    <value>La hora</value>
+    <comment>Timepicker.js</comment>
+  </data>
+  <data name="SorryYouCantMakeIt" xml:space="preserve">
+    <value>¡Sentimos mucho que no puedes asistir!</value>
+  </data>
+  <data name="ThanksSeeYouThere" xml:space="preserve">
+    <value>Gracias - ¡nos vemos ahí!</value>
+  </data>
+  <data name="WhenQuestion" xml:space="preserve">
+    <value>¿Cuándo?</value>
+  </data>
+  <data name="WhereQuestion" xml:space="preserve">
+    <value>¿Dónde?</value>
+  </data>
+  <data name="DragThePin" xml:space="preserve">
+    <value>(arrastra el pin en el mapa si no se ve bien)*</value>
+  </data>
+  <data name="ModelRegister" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+</root>

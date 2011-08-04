@@ -1,0 +1,11 @@
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\bin\Debug\Resources.dll
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\bin\Debug\Resources.pdb
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\obj\Debug\ResolveAssemblyReference.cache
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\obj\Debug\GenerateResource.read.1.tlog
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\obj\Debug\GenerateResource.write.1.tlog
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\obj\Debug\Resources.dll
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\obj\Debug\Resources.pdb
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\bin\Debug\es\Resources.resources.dll
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\obj\Debug\es\Resources.resources.dll
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\obj\Debug\Resources.Resources.resources
+E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\Resources\obj\Debug\Resources.Resources.es.resources

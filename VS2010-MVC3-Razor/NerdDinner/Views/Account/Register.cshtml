@@ -1,0 +1,52 @@
+﻿@model NerdDinner.Models.RegisterModel
+
+@{
+	ViewBag.Title = Resources.RegisterForAccount;
+}
+
+@section HeadArea {
+	<link rel="Stylesheet" type="text/css" href="@Url.Action("OpenIdSelector", "Resource")" />
+	<link rel="Stylesheet" type="text/css" href="@Url.Action("OpenIdAjaxTextBox", "Resource")" />
+	<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+	<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+}
+
+<h2>@ViewBag.Title</h2>
+<p>
+	@Resources.UseFormBelow
+</p>
+<p>	
+    @string.Format(Resources.MinPasswordLength, ViewBag.PasswordLength)
+</p>
+
+@using (Html.BeginForm()) {
+	@Html.ValidationSummary(true, Resources.AccountCreationError)
+	<div>
+		<fieldset>
+			<legend>@Resources.AccountInformation</legend>
+			<p>
+                @Html.LabelFor(m => m.UserName)
+                @Html.TextBoxFor(m => m.UserName)
+                @Html.ValidationMessageFor(m => m.UserName)
+			</p>
+			<p>
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email)
+                @Html.ValidationMessageFor(m => m.Email)
+			</p>
+			<p>
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password)
+                @Html.ValidationMessageFor(m => m.Password)
+			</p>
+			<p>
+                @Html.LabelFor(m => m.ConfirmPassword)
+                @Html.PasswordFor(m => m.ConfirmPassword)
+                @Html.ValidationMessageFor(m => m.ConfirmPassword)
+			</p>
+			<p>
+				<input type="submit" value="@Resources.Register" />
+			</p>
+		</fieldset>
+	</div>
+}

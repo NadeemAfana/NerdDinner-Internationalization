@@ -1,0 +1,19 @@
+﻿@model NerdDinner.Models.LogOnModel
+@using DotNetOpenAuth.Mvc;
+@{
+    ViewBag.Title = Resources.LogOn;
+}
+<h2>@ViewBag.Title</h2>
+@section HeadArea {
+    <link rel="Stylesheet" type="text/css" href="@Url.Action("OpenIdSelector", "Resource")" />
+    <link rel="Stylesheet" type="text/css" href="@Url.Action("OpenIdAjaxTextBox", "Resource")" />
+    @* Moved jquery.cookie.js reference to _Layout.cshtml since we need it for settng i18n cookie *@ 
+    @MvcHtmlString.Create(Html.OpenIdSelectorStyles())
+}
+
+@Html.ValidationSummary(true, Resources.LoginError)
+@Html.ValidationMessage("_FORM")
+@Html.Partial("_LogonOpenId")
+<div id="or">
+    @Resources.OR</div>
+@Html.Partial("_LogonNative")

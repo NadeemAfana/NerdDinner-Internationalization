@@ -1,0 +1,30 @@
+﻿@model FlairViewModel
+@using NerdDinner.Helpers;
+@using NerdDinner.Models;
+
+@{
+
+var line1 = "document.write('<script>var link = document.createElement(\"link\");link.href=\"http://nerddinner.com/content/Flair.css\";link.rel = \"stylesheet\";link.type = \"text/css\";var head = document.getElementsByTagName(\"head\")[0];head.appendChild(link);</script>');";
+var line2 = "document.write('<div id=\"nd-wrapper\"><h2 id=\"nd-header\">NerdDinner.com</h2><div id=\"nd-outer\">');";
+
+string middleLines = "";
+
+if (Model.Dinners.Count == 0) {
+    middleLines += "document.write('<div id=\"nd-bummer\">" + string.Format(Resources.LooksLikeNoDinners, Model.LocationName); 
+    middleLines += " " + Resources.WhyNotHostOne + "</div>');";
+} else {
+
+	middleLines += "document.write('<h3>  " + Resources.DinnersNearYou +"</h3><ul>');";
+		foreach (var item in Model.Dinners) {
+            middleLines += "document.write('<li><a target=\"_blank\" href=\"http://nrddnr.com/@item.DinnerID\">" + string.Format(Resources.DinnerWithOn, item.Title.Truncate(20), item.HostedBy, item.EventDate.ToShortDateString()) + "</a></li>');";
+		}
+	middleLines += "document.write('</ul>');";
+}
+string lastLine = "document.write('<div id=\"nd-footer\">  " + Resources.MoreDinnersAndFunAt + "<a target=\"_blank\" href=\"http://nrddnr.com\">http://nrddnr.com</a></div></div></div>');";
+
+}
+
+@MvcHtmlString.Create(line1)
+@MvcHtmlString.Create(line2)
+@MvcHtmlString.Create(middleLines)
+@MvcHtmlString.Create(lastLine)

@@ -1,0 +1,200 @@
+﻿<error errorId="9b0581d9-76f6-448c-be7b-3e48c73b3043" host="NADEEM-PC" type="System.InvalidOperationException" message="There is already an open DataReader associated with this Command which must be closed first." source="System.Data" detail="System.Data.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---&gt; System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.&#xD;&#xA;   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)&#xD;&#xA;   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)&#xD;&#xA;   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)&#xD;&#xA;   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)&#xD;&#xA;   at System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)&#xD;&#xA;   --- End of inner exception stack trace ---&#xD;&#xA;   at System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)&#xD;&#xA;   at System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)&#xD;&#xA;   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)&#xD;&#xA;   at System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator()&#xD;&#xA;   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)&#xD;&#xA;   at System.Data.Objects.ELinq.ObjectQueryProvider.&lt;GetElementFunction&gt;b__1[TResult](IEnumerable`1 sequence)&#xD;&#xA;   at System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)&#xD;&#xA;   at System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)&#xD;&#xA;   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)&#xD;&#xA;   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)&#xD;&#xA;   at NerdDinner.Models.DinnerRepository.FindByLocation(Single latitude, Single longitude) in E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Models\DinnerRepository.cs:line 24&#xD;&#xA;   at NerdDinner.Controllers.SearchController.SearchByLocation(Single latitude, Single longitude) in E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Controllers\SearchController.cs:line 51&#xD;&#xA;   at lambda_method(Closure , ControllerBase , Object[] )&#xD;&#xA;   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)&#xD;&#xA;   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass15.&lt;InvokeActionMethodWithFilters&gt;b__12()&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass15.&lt;&gt;c__DisplayClass17.&lt;InvokeActionMethodWithFilters&gt;b__14()&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)&#xD;&#xA;   at System.Web.Mvc.Controller.ExecuteCore()&#xD;&#xA;   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)&#xD;&#xA;   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClass6.&lt;&gt;c__DisplayClassb.&lt;BeginProcessRequest&gt;b__5()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass1.&lt;MakeVoidDelegate&gt;b__0()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass8`1.&lt;BeginSynchronous&gt;b__7(IAsyncResult _)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClasse.&lt;EndProcessRequest&gt;b__d()&#xD;&#xA;   at System.Web.Mvc.SecurityUtil.&lt;GetCallInAppTrustThunk&gt;b__0(Action f)&#xD;&#xA;   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="nadeem" time="2011-07-28T19:41:20.3070229Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:no-cache&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_PRAGMA:no-cache&#xD;&#xA;HTTP_CONTENT_LENGTH:48&#xD;&#xA;HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=UTF-8&#xD;&#xA;HTTP_ACCEPT:application/json, text/javascript, */*; q=0.01&#xD;&#xA;HTTP_ACCEPT_CHARSET:ISO-8859-1,utf-8;q=0.7,*;q=0.7&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-us,en;q=0.7,es-cl;q=0.3&#xD;&#xA;HTTP_COOKIE:__utma=111872281.354885761.1309400601.1311805299.1311881984.8; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.5.10.1311881984; __utmc=111872281; .ASPXAUTH=DD9CD2DC21DCD6581AB25F437678649E13BFCC27D1CF395B6907AF9EFD10F4F4602A913D4E074F17C3F179A1C2E23F4D9C9CDC793D7B6E60F9247EBF7C90AAB872FB911CC7F2CB201C46FE9270F9D8DFEF95B59109B667E3BE5585F9334433BACBF9081DCC2536EE3B088AA11716B87C8ADA6B1C6C477C116B7752182033B776DE04C3B7&#xD;&#xA;HTTP_HOST:localhost:50799&#xD;&#xA;HTTP_REFERER:http://localhost:50799/&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: no-cache&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Pragma: no-cache&#xD;&#xA;Content-Length: 48&#xD;&#xA;Content-Type: application/x-www-form-urlencoded; charset=UTF-8&#xD;&#xA;Accept: application/json, text/javascript, */*; q=0.01&#xD;&#xA;Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: en-us,en;q=0.7,es-cl;q=0.3&#xD;&#xA;Cookie: __utma=111872281.354885761.1309400601.1311805299.1311881984.8; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.5.10.1311881984; __utmc=111872281; .ASPXAUTH=DD9CD2DC21DCD6581AB25F437678649E13BFCC27D1CF395B6907AF9EFD10F4F4602A913D4E074F17C3F179A1C2E23F4D9C9CDC793D7B6E60F9247EBF7C90AAB872FB911CC7F2CB201C46FE9270F9D8DFEF95B59109B667E3BE5585F9334433BACBF9081DCC2536EE3B088AA11716B87C8ADA6B1C6C477C116B7752182033B776DE04C3B7&#xD;&#xA;Host: localhost:50799&#xD;&#xA;Referer: http://localhost:50799/&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Nerd" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="nadeem" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="Nadeem-PC\Nadeem" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="nadeem" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="48" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="application/x-www-form-urlencoded; charset=UTF-8" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="" />
+    </item>
+    <item name="HTTPS">
+      <value string="" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Search/SearchByLocation" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Search\SearchByLocation" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="POST" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Search/SearchByLocation" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="50799" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="" />
+    </item>
+    <item name="URL">
+      <value string="/Search/SearchByLocation" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_PRAGMA">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_CONTENT_LENGTH">
+      <value string="48" />
+    </item>
+    <item name="HTTP_CONTENT_TYPE">
+      <value string="application/x-www-form-urlencoded; charset=UTF-8" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="application/json, text/javascript, */*; q=0.01" />
+    </item>
+    <item name="HTTP_ACCEPT_CHARSET">
+      <value string="ISO-8859-1,utf-8;q=0.7,*;q=0.7" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-us,en;q=0.7,es-cl;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__utma=111872281.354885761.1309400601.1311805299.1311881984.8; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.5.10.1311881984; __utmc=111872281; .ASPXAUTH=DD9CD2DC21DCD6581AB25F437678649E13BFCC27D1CF395B6907AF9EFD10F4F4602A913D4E074F17C3F179A1C2E23F4D9C9CDC793D7B6E60F9247EBF7C90AAB872FB911CC7F2CB201C46FE9270F9D8DFEF95B59109B667E3BE5585F9334433BACBF9081DCC2536EE3B088AA11716B87C8ADA6B1C6C477C116B7752182033B776DE04C3B7" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:50799" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:50799/" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+  </serverVariables>
+  <form>
+    <item name="latitude">
+      <value string="32.78921108387779" />
+    </item>
+    <item name="longitude">
+      <value string="-117.157982" />
+    </item>
+  </form>
+  <cookies>
+    <item name="__utma">
+      <value string="111872281.354885761.1309400601.1311805299.1311881984.8" />
+    </item>
+    <item name="__utmz">
+      <value string="111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)" />
+    </item>
+    <item name="__utmb">
+      <value string="111872281.5.10.1311881984" />
+    </item>
+    <item name="__utmc">
+      <value string="111872281" />
+    </item>
+    <item name=".ASPXAUTH">
+      <value string="DD9CD2DC21DCD6581AB25F437678649E13BFCC27D1CF395B6907AF9EFD10F4F4602A913D4E074F17C3F179A1C2E23F4D9C9CDC793D7B6E60F9247EBF7C90AAB872FB911CC7F2CB201C46FE9270F9D8DFEF95B59109B667E3BE5585F9334433BACBF9081DCC2536EE3B088AA11716B87C8ADA6B1C6C477C116B7752182033B776DE04C3B7" />
+    </item>
+  </cookies>
+</error>

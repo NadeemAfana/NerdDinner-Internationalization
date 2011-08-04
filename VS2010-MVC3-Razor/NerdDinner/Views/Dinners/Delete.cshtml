@@ -1,0 +1,20 @@
+﻿@model NerdDinner.Models.Dinner
+
+@{
+	ViewBag.Title = Resources.DeleteConfirmation + ": " + Model.Title;
+}
+
+<h2>
+	@Resources.DeleteConfirmation
+</h2>
+
+<div>
+	<p>@Resources.PleaseConfirmCancelDinner
+	<i> @Model.Title ? </i> </p>
+</div>
+	
+@using (Html.BeginForm()) { 
+
+	<input name="confirmButton" type="submit" value="@Resources.Delete" />        
+
+}

@@ -1,0 +1,30 @@
+﻿@model dynamic
+@using DotNetOpenAuth.Mvc;
+@using DotNetOpenAuth.OpenId.RelyingParty;
+<div id="login-oauth">
+    <fieldset>
+        <legend>@Resources.Via3rdParty</legend>
+        @using (Html.BeginForm("LogOnPostAssertion", "Auth"))
+        {
+            @Html.Hidden("ReturnUrl", Request.QueryString["ReturnUrl"], new { id = "ReturnUrl" })
+            @Html.Hidden("openid_openidAuthData")
+            <div>
+                @MvcHtmlString.Create(Html.OpenIdSelector(new SelectorButton[] {
+new SelectorProviderButton("https://me.yahoo.com/", Url.Content("~/Content/images/yahoo.gif")),
+new SelectorProviderButton("https://www.google.com/accounts/o8/id", Url.Content("~/Content/images/google.gif")),
+new SelectorOpenIdButton(Url.Content("~/Content/images/openid.gif")),
+}))
+                <div class="helpDoc">
+                    <p>
+                       @Resources.ClickSameButton
+                    </p>
+                </div>
+            </div>
+        }
+    </fieldset>
+</div>
+@{     
+    var options = new OpenIdSelector();
+    options.TextBox.LogOnText = Resources.LogOn;
+}
+@MvcHtmlString.Create(Html.OpenIdSelectorScripts(options, null))

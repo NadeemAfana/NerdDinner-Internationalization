@@ -1,0 +1,206 @@
+﻿<error errorId="e12ddad1-3057-4eab-ac2e-5830dbabbd38" host="NADEEM-PC" type="System.Web.HttpException" message="The length of the query string for this request exceeds the configured maxQueryStringLength value." source="System.Web" detail="System.Web.HttpException (0x80004005): The length of the query string for this request exceeds the configured maxQueryStringLength value.&#xD;&#xA;   at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()&#xD;&#xA;   at System.Web.HttpApplication.ValidateRequestExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" time="2011-08-02T23:43:51.3434068Z" statusCode="400">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_CHARSET:ISO-8859-1,utf-8;q=0.7,*;q=0.7&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:es-cl,en-us;q=0.7,en;q=0.3&#xD;&#xA;HTTP_COOKIE:__utma=111872281.354885761.1309400601.1312311659.1312323504.25; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.79.10.1312323504; __utmc=111872281; _culture=es-cl&#xD;&#xA;HTTP_HOST:localhost:50799&#xD;&#xA;HTTP_REFERER:http://localhost:50799/Account/LogOn?ReturnUrl=%2fDinners%2fCreate&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: es-cl,en-us;q=0.7,en;q=0.3&#xD;&#xA;Cookie: __utma=111872281.354885761.1309400601.1312311659.1312323504.25; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.79.10.1312323504; __utmc=111872281; _culture=es-cl&#xD;&#xA;Host: localhost:50799&#xD;&#xA;Referer: http://localhost:50799/Account/LogOn?ReturnUrl=%2fDinners%2fCreate&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="Nadeem-PC\Nadeem" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="" />
+    </item>
+    <item name="HTTPS">
+      <value string="" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Auth/PopUpReturnTo" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="E:\Articles\ASP.NET MVC 3 Internationalization 2\VS2010-MVC3-Razor\NerdDinner\Auth\PopUpReturnTo" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="dnoa.uipopup=1&amp;dnoa.popupUISupported=1&amp;index=0&amp;dnoa.userSuppliedIdentifier=https%3A%2F%2Fme.yahoo.com%2F&amp;dnoa.op_endpoint=https%3A%2F%2Fopen.login.yahooapis.com%2Fopenid%2Fop%2Fauth&amp;dnoa.claimed_id=&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.mode=setup_needed&amp;openid.user_setup_url=https%3A%2F%2Fopen.login.yahooapis.com%2Fopenid%2Fop%2Fauth%3Fopenid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%26openid.mode%3Dcheckid_setup%26openid.return_to%3Dhttp%253A%252F%252Flocalhost%253A50799%252FAuth%252FPopUpReturnTo%253Fdnoa.uipopup%253D1%2526dnoa.popupUISupported%253D1%2526index%253D0%2526dnoa.userSuppliedIdentifier%253Dhttps%25253A%25252F%25252Fme.yahoo.com%25252F%2526dnoa.op_endpoint%253Dhttps%25253A%25252F%25252Fopen.login.yahooapis.com%25252Fopenid%25252Fop%25252Fauth%2526dnoa.claimed_id%253D%26openid.claimed_id%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.identity%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.assoc_handle%3DYSPM5whOiZB7Ck3yJErimT5X.0GyJxJPd4XmD0i5M6mf91BS91RSZLdOJgmteOXWVkHQH2kn1ou9TR8naau6uQmVrzRuBtPUVr8eIdJMez4P48eY94FBNHT2C4v3Oeo89bUx%26openid.realm%3Dhttp%253A%252F%252Flocalhost%253A50799%252F%26openid.ns.ui%3Dhttp%253A%252F%252Fspecs.openid.net%252Fextensions%252Fui%252F1.0%26openid.ns.sreg%3Dhttp%253A%252F%252Fopenid.net%252Fextensions%252Fsreg%252F1.1%26openid.ns.ax%3Dhttp%253A%252F%252Fopenid.net%252Fsrv%252Fax%252F1.0%26openid.ui.lang%3Des-CL%26openid.ui.mode%3Dpopup%26openid.sreg.policy_url%3Dhttp%253A%252F%252Flocalhost%253A50799%252FHome%252FPrivacyPolicy%26openid.sreg.required%3Demail%26openid.sreg.optional%3Dfullname%26openid.ax.if_available%3Dalias2%252Calias4%26openid.ax.required%3Dalias1%252Calias3%26openid.ax.mode%3Dfetch_request%26openid.ax.type.alias1%3Dhttp%253A%252F%252Faxschema.org%252Fcontact%252Femail%26openid.ax.count.alias1%3D1%26openid.ax.type.alias2%3Dhttp%253A%252F%252Faxschema.org%252FnamePerson%26openid.ax.count.alias2%3D1%26openid.ax.type.alias3%3Dhttp%253A%252F%252Fschema.openid.net%252Fcontact%252Femail%26openid.ax.count.alias3%3D1%26openid.ax.type.alias4%3Dhttp%253A%252F%252Fschema.openid.net%252FnamePerson%26openid.ax.count.alias4%3D1" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Auth/PopUpReturnTo" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="50799" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="" />
+    </item>
+    <item name="URL">
+      <value string="/Auth/PopUpReturnTo" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_CHARSET">
+      <value string="ISO-8859-1,utf-8;q=0.7,*;q=0.7" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="es-cl,en-us;q=0.7,en;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__utma=111872281.354885761.1309400601.1312311659.1312323504.25; __utmz=111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=111872281.79.10.1312323504; __utmc=111872281; _culture=es-cl" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:50799" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:50799/Account/LogOn?ReturnUrl=%2fDinners%2fCreate" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="dnoa.uipopup">
+      <value string="1" />
+    </item>
+    <item name="dnoa.popupUISupported">
+      <value string="1" />
+    </item>
+    <item name="index">
+      <value string="0" />
+    </item>
+    <item name="dnoa.userSuppliedIdentifier">
+      <value string="https://me.yahoo.com/" />
+    </item>
+    <item name="dnoa.op_endpoint">
+      <value string="https://open.login.yahooapis.com/openid/op/auth" />
+    </item>
+    <item name="dnoa.claimed_id">
+      <value string="" />
+    </item>
+    <item name="openid.ns">
+      <value string="http://specs.openid.net/auth/2.0" />
+    </item>
+    <item name="openid.mode">
+      <value string="setup_needed" />
+    </item>
+    <item name="openid.user_setup_url">
+      <value string="https://open.login.yahooapis.com/openid/op/auth?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.mode=checkid_setup&amp;openid.return_to=http%3A%2F%2Flocalhost%3A50799%2FAuth%2FPopUpReturnTo%3Fdnoa.uipopup%3D1%26dnoa.popupUISupported%3D1%26index%3D0%26dnoa.userSuppliedIdentifier%3Dhttps%253A%252F%252Fme.yahoo.com%252F%26dnoa.op_endpoint%3Dhttps%253A%252F%252Fopen.login.yahooapis.com%252Fopenid%252Fop%252Fauth%26dnoa.claimed_id%3D&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=YSPM5whOiZB7Ck3yJErimT5X.0GyJxJPd4XmD0i5M6mf91BS91RSZLdOJgmteOXWVkHQH2kn1ou9TR8naau6uQmVrzRuBtPUVr8eIdJMez4P48eY94FBNHT2C4v3Oeo89bUx&amp;openid.realm=http%3A%2F%2Flocalhost%3A50799%2F&amp;openid.ns.ui=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fui%2F1.0&amp;openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&amp;openid.ns.ax=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&amp;openid.ui.lang=es-CL&amp;openid.ui.mode=popup&amp;openid.sreg.policy_url=http%3A%2F%2Flocalhost%3A50799%2FHome%2FPrivacyPolicy&amp;openid.sreg.required=email&amp;openid.sreg.optional=fullname&amp;openid.ax.if_available=alias2%2Calias4&amp;openid.ax.required=alias1%2Calias3&amp;openid.ax.mode=fetch_request&amp;openid.ax.type.alias1=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&amp;openid.ax.count.alias1=1&amp;openid.ax.type.alias2=http%3A%2F%2Faxschema.org%2FnamePerson&amp;openid.ax.count.alias2=1&amp;openid.ax.type.alias3=http%3A%2F%2Fschema.openid.net%2Fcontact%2Femail&amp;openid.ax.count.alias3=1&amp;openid.ax.type.alias4=http%3A%2F%2Fschema.openid.net%2FnamePerson&amp;openid.ax.count.alias4=1" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="__utma">
+      <value string="111872281.354885761.1309400601.1312311659.1312323504.25" />
+    </item>
+    <item name="__utmz">
+      <value string="111872281.1309400601.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)" />
+    </item>
+    <item name="__utmb">
+      <value string="111872281.79.10.1312323504" />
+    </item>
+    <item name="__utmc">
+      <value string="111872281" />
+    </item>
+    <item name="_culture">
+      <value string="es-cl" />
+    </item>
+  </cookies>
+</error>

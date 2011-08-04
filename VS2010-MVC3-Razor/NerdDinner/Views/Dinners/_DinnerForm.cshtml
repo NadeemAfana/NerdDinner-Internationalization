@@ -1,0 +1,72 @@
+﻿@model NerdDinner.Models.Dinner
+@using System.Globalization;
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, Resources.PleaseCorrectErrors)
+    <fieldset>
+        <div id="dinnerDiv">
+            @Html.EditorForModel()
+            <p>
+                <input type="submit" value="@Resources.Save" />
+            </p>
+        </div>
+        <div id="mapDiv">
+            @Html.EditorFor(m => m.Location)
+        </div>
+    </fieldset>
+}
+    <script type="text/javascript">
+//<![CDATA[
+        $(document).ready(function () {
+            // make sure that the mapcontrol has loaded, this has been an issue in FF4
+            // see http://stackoverflow.com/questions/5566393/issue-with-bing-map-p-elsource-attachevent-is-not-a-function
+            var interval = setInterval(function () {
+                if ((eval("typeof VEMap") != "undefined") && (document.getElementById("theMap").attachEvent != undefined)) {
+                    clearInterval(interval);
+                    onMapLoaded();
+                }
+            }, 10);
+
+            
+        // Override default jQuery Validation number method
+        $.validator.methods.number =  function(value, element) {
+            return  this.optional(element) || !isNaN(Globalize.parseFloat(value));		
+        }
+
+        });
+
+        function onMapLoaded() {
+            //NerdDinner.EnableMapMouseClickCallback();
+
+            $('#EventDate').datetimepicker();
+
+            $("#Address").blur(function (evt) {
+                //If it's time to look for an address, 
+                // clear out the Lat and Lon
+                $("#Latitude").val("0");
+                $("#Longitude").val("0");
+                var address = jQuery.trim($("#Address").val());
+                if (address.length < 1)
+                    return;
+                NerdDinner.FindAddressOnMap(address);
+            });
+
+            var latitude = @Convert.ToString(@Model.Location.Latitude, CultureInfo.InvariantCulture);
+            var longitude = @Convert.ToString(@Model.Location.Longitude, CultureInfo.InvariantCulture);
+                
+            if ((latitude == 0) || (longitude == 0))
+                NerdDinner.LoadMap();
+            else
+                NerdDinner.LoadMap(latitude, longitude, mapLoaded);
+        }
+
+        function mapLoaded() {
+            NerdDinner.LoadPin(NerdDinner._map.GetCenter(), '@Model.Description', true);
+            NerdDinner._map.SetZoomLevel(14);
+        } 
+
+//]]>
+    </script>
